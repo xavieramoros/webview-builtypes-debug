@@ -21,13 +21,9 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>React Native WebView </Text>
-        <WebView
-          source={{ uri: 'https://github.com/react-native-community/react-native-webview' }}
-          style={{ marginTop: 50 }}
-        />
-      </View>
+      <WebView
+        source={{ uri: 'https://www.github.com/react-native-community/react-native-webview' }}
+      />
     );
   }
 }
